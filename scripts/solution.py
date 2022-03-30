@@ -18,6 +18,9 @@ from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchmetrics.detection.map import MeanAveragePrecision
 import pycocotools
 
+import sys 
+sys.path.append('..')
+
 # imports from local lib files
 import utils
 import transforms
