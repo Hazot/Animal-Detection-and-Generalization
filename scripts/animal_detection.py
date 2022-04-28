@@ -9,9 +9,9 @@ Data cleaning, model creation, model training and model evaluation module for an
 '''
 
 # Imports
-import sys
 import os
 import json
+import time
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
