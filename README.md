@@ -6,7 +6,7 @@ A Multi-domain generalizable animal detection model: exploration of potential so
 
 - [Requirements](#requirements)
 - [Getting started](#getting-started)
-- [Good to know](#good-to-know)
+- [Examples of experiments](#examples-of-experiments)
 - [Authors](#authors)
 
 ## Requirements
@@ -25,12 +25,15 @@ A Multi-domain generalizable animal detection model: exploration of potential so
    or download it manually.
 
 
-2. Load the virtual environment librairies using:
+2. Download and extract the dataset directly into the project folder. Make sure to have the following folders:
+- eccv_18_all_images_sm
+- eccv_18_annotation_files
+4. Load the virtual environment librairies using:
 
     ```
     python -m pip install -r requirements.txt
     ```
-3. Open the main_notebook.ipynb and simply execute the cells sequentially.
+5. Open the main_notebook.ipynb and simply execute the cells sequentially.
 
 ## Examples of experiments
 
