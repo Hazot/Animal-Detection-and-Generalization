@@ -25,7 +25,7 @@ A Multi-domain generalizable animal detection model: exploration of potential so
    or download it manually.
 
 
-2. Download and extract the dataset directly into the project folder. Make sure to have the following folders:
+2. Download the dataset (Benchmark images: 6GB; Metadata files: 3MB) under the header CCT20 Benchmark subset: https://lila.science/datasets/caltech-camera-traps. Extract the dataset directly into the project folder. Make sure to have the following folders:
 - eccv_18_all_images_sm
 - eccv_18_annotation_files
 4. Load the virtual environment librairies using:
@@ -37,11 +37,11 @@ A Multi-domain generalizable animal detection model: exploration of potential so
 
 ## Examples of experiments
 
-1. To reproduce the test results of a BASE model, simply execute the cells until the interactive part.
+1. To reproduce the test results of a RPN+ROI model, simply execute the cells until the interactive part.
 Make sure that you use the right parameters: 
     ```
     data_augmentation_mode = 'none'
-    model_depth = 1
+    model_depth = 3
     ```
     In the cell below:
     ```
@@ -53,10 +53,13 @@ Make sure that you use the right parameters:
     ```
     lightweight_mode = 0
     ```
-   
+2. To use domain adaptation on this model, after training a model go to the Domain Adaptation heading and 
+run every cell below until the very last.
 
 
 ## Authors
 
-- Abdiel Fernandez ()
-- 
+- Abdiel Fernandez (abdielfer@gmail.com)
+- Rose Guay Hottin (guayhottin.rose@hotmail.com)
+- Kevin Lessard (kevin.lessard@umontreal.ca)
+- Santino Nanini (santino.nanini@umontreal.ca)
