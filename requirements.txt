@@ -66,7 +66,7 @@ networkx==2.6.3
 notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1650363291341/work
 notebook-shim @ file:///home/conda/feedstock_root/build_artifacts/notebook-shim_1646330736330/work
 numpy @ file:///C:/ci_310/numpy_and_numpy_base_1643798589088/work
-oauthlib==3.1.1
+oauthlib==3.2.1
 olefile==0.46
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
 panda==0.3.1
@@ -77,7 +77,7 @@ pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==9.0.1
 prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1649447152425/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
-protobuf==3.19.1
+protobuf==3.19.5
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycocotools==2.0.4
