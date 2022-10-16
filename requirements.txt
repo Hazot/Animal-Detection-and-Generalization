@@ -37,7 +37,7 @@ ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/wor
 ipywidgets==7.6.5
 jedi @ file:///C:/ci/jedi_1611315820849/work
 Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1648299710939/work
-joblib==1.1.0
+joblib==1.2.0
 json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1600692310011/work
 jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema-meta_1642000296051/work
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1637148478538/work
